@@ -32,21 +32,5 @@ def factorial():
             fact = fact*i
         print("The factorial of",num,"is",fact)
 
-def third():
-    #Write a function that gets the time as three integer arguments (for hours, minutes, and seconds) 
-    #and returns the number of seconds since the last time the clock “reached 12.” 
-    #Use this function to calculate the amount of time in seconds between two hours, when both are within a 12-hour cycle.    
-    
-    
-    def calcSecondsFromTvelwe( hh, mm, ss):
-	    return (hh % 12 * 3600 + mm * 60 + ss)   # take hh modulo 12 to maintain 24h mode
 
-    def gydfvgiouygfg():
-
-    	hours = int(input("Enter a number: "))
-        minutes = int(input("Enter a number: "))
-        seconds = int(input("Enter a number: "))
-	    time1 = calcSecondsFromTvelwe(hours, minutes, seconds)
-	    print("Enter second time (hours, minutes and seconds): ",hours,minutes,seconds)
-	    time2 = calcSecondsFromTvelwe(hours, minutes, seconds)
-	    print("Amount of time in seconds between two times is: ",abs(time1 - time2))
+    
